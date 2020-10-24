@@ -100,7 +100,5 @@ public class ImageHandler {
             throw new IllegalStateException("Main class is not stored in a file.");
         File path = new File(main.getPath());
         System.out.println(path.getAbsolutePath());
-//        ImageHandler imageHandler = new ImageHandler();
-//        imageHandler.sortImages("C:\\Users\\Irisha\\Pictures\\DataSpoiled");
     }
 }
